@@ -14,6 +14,12 @@ npm create svelte@latest
 npm create svelte@latest my-app
 ```
 
+Next, create a .env file and add your OpenAI API key as such (see .env.example for an example):
+
+```
+OPENAI_KEY="YOUR-KEY-HERE"
+```
+
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
